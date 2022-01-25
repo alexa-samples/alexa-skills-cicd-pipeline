@@ -55,7 +55,7 @@ npm install -g ask-cli
 ```
 2. configure the ASK profile
 ```
-ask configure --no-bowser
+ask configure --no-browser
 ```
 3. When asked if you want to link your AKS profile to your AWS account, say no.
 
