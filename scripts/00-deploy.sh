@@ -7,7 +7,7 @@ echo "Installing jq"
 sudo yum install -y jq
 
 echo "Installing Node Packages"
-nvm use
+
 npm i
 cd src/skills/demo-skill/simple-backend
 npm i
@@ -69,4 +69,5 @@ aws secretsmanager create-secret  \
     --name "/$SKILL_STACK_NAME/lwa-refresh-token" \
     --secret-string $LWA_REFRESH_TOKEN
 
-npx cdk deploy
+npx aws-cdk@1.x bootstrap
+npx aws-cdk@1.x deploy
