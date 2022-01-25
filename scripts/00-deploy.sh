@@ -69,4 +69,5 @@ aws secretsmanager create-secret  \
     --name "/$SKILL_STACK_NAME/lwa-refresh-token" \
     --secret-string $LWA_REFRESH_TOKEN
 
+npx cdk bootstrap
 npx cdk deploy
