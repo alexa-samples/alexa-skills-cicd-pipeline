@@ -183,3 +183,7 @@ This sample is licensed under the Amazon Software License.
 ## References
 
 - [CDK for Alexa Skils](https://aws.amazon.com/blogs/devops/deploying-alexa-skills-with-aws-cdk/).
+
+## Acknowledgments
+- Thanks to Jeff Gardner for writing the [post](https://aws.amazon.com/blogs/devops/deploying-alexa-skills-with-aws-cdk/) that inspired this code sample
+- This project was made possible by the Auto-Lab Team Europe

@@ -33,5 +33,6 @@
     "@aws-cdk/aws-lambda-nodejs": "1.140.0",
     "ask-sdk-core": "^2.11.0",
     "source-map-support": "^0.5.16"
-  }
+  },
+  "author":"Patrick Bartsch <bartschp@amazon.com>, Giuseppe Battista <gbatt@amazon.com>"
 }
